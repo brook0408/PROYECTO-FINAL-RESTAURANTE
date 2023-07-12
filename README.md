@@ -111,13 +111,6 @@ serverless deploy
 Esto creará y configurará todos los recursos en AWS utilizando CloudFormation.
 
 
-Accede a la aplicación:
-
-Utiliza el API Gateway para acceder a los servicios:
-
-POST: https://uzpird8co9.execute-api.us-east-1.amazonaws.com/dev/orders)
-
-GET: https://uzpird8co9.execute-api.us-east-1.amazonaws.com/dev/orders){orderId}
 
 ¡Listo! Ahora puedes comenzar a utilizar la aplicación de toma de pedidos.
 
