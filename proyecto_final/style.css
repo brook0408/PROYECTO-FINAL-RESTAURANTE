@@ -1,0 +1,63 @@
+body {
+    background-image: url('img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 1cqi;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+h2 {
+    color: rgb(18, 18, 19);
+    text-align: center;
+    font-size: 28px;
+    font-family: "Arial Black", sans-serif;
+    margin-bottom: 80px;
+}
+
+h3 {
+    color: rgb(12, 12, 12);
+    text-align: center;
+    font-size: 24px;
+    font-family: "Arial Black", sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
